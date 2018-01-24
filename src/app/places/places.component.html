@@ -1,19 +1,17 @@
-<div>
-        <h2>Mine steder</h2>
-        <ul class="places">
-                <li *ngFor="let p of places" (click)="onSelect(p)">
-            <span class="badge">{{p.id}}</span> {{p.name}}
-          </li>
-        </ul>
-
-<hr>
-    <h2>{{ selectedPlace.name | uppercase }} Details</h2>
-    <div><span>Id: </span>{{selectedPlace.id}}</div>
-    <div><span>Navn: </span>{{selectedPlace.name}}</div>
-    <div><span>Latitude: </span>{{selectedPlace.latitude}}</div>
-    <div><span>Longitude: </span>{{selectedPlace.longitude}}</div>
-<br>
-    <label>Navn:
-            <input [(ngModel)]="selectedPlace.name" placeholder="name">
-      </label>
+<div class="row text-center">
+  <div class="col-lg-3 col-md-6 mb-4" *ngFor="let pla of places">
+    <div class="card">
+      <img class="card-img-top" src="{{pla.imgSource}}" alt="{{ pla.name | uppercase }}">
+      <div class="card-body">
+        <h4 class="card-title">{{ pla.name | uppercase }}</h4>
+        <p class="card-text"><img src="../../assets/svg/star.svg" height="15px" alt="icon name"> 5,3 <br>blah blah blah</p>
+        <a href="#" class="card-link">
+            Reviews</a>
+        <a href="#" class="card-link">Hjemmeside</a>
+      </div>
+      <div class="card-footer">
+        <a href="#" class="btn btn-primary">Find Out More!</a>
+      </div>
+    </div>
+  </div>
 </div>

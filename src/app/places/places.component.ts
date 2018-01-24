@@ -1,8 +1,7 @@
 import { Component, OnInit } from '@angular/core';
-import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
-import { Place } from '../place';
-import { PLACES } from '../mock-places';
+import { Place } from './shared/place.model';
+import { PLACES } from './shared/mock-places';
 
 @Component({
   selector: 'app-places',
