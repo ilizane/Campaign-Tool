@@ -1,17 +1,5 @@
 <div class="row text-center">
-  <div class="col-lg-3 col-md-6 mb-4" *ngFor="let pla of places">
-    <div class="card">
-      <img class="card-img-top" src="{{pla.imgSource}}" alt="{{ pla.name | uppercase }}">
-      <div class="card-body">
-        <h4 class="card-title">{{ pla.name | uppercase }}</h4>
-        <p class="card-text"><img src="../../assets/svg/star.svg" height="15px" alt="icon name"> 5,3 <br>blah blah blah</p>
-        <a href="#" class="card-link">
-            Reviews</a>
-        <a href="#" class="card-link">Hjemmeside</a>
-      </div>
-      <div class="card-footer">
-        <a href="#" class="btn btn-primary">Find Out More!</a>
-      </div>
-    </div>
+  <div class="col-lg-3 col-md-6 mb-4" *ngFor="let place of places">
+    <app-place-details [Place]="place"></app-place-details>
   </div>
 </div>

@@ -1,0 +1,11 @@
+a.dropdown-header{
+  padding: 0rem 1.0rem;
+  font-size: 0.9rem;
+}
+a.dropdown-item{
+  padding: 0rem 1.5rem;
+  font-size: 0.9rem;
+}
+.dropdown-divider{
+  margin: .25rem 0;
+}
