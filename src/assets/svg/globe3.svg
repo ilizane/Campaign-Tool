@@ -1,0 +1,17 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+
+ <g>
+  <title>background</title>
+  <rect fill="none" id="canvas_background" height="402" width="582" y="-1" x="-1"/>
+ </g>
+ <g>
+  <title stroke="#ffffff" fill="none">Layer 1</title>
+  <rect stroke="#ffffff" id="svg_1" width="50" height="50" fill="none"/>
+  <circle id="svg_2" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" r="24" fill="none" cy="25" cx="25"/>
+  <ellipse id="svg_3" stroke-width="2" stroke-miterlimit="10" stroke-linecap="round" stroke="#ffffff" ry="24" rx="12" fill="none" cy="25" cx="25"/>
+  <path id="svg_4" stroke-width="2" stroke-miterlimit="10" stroke="#ffffff" fill="none" d="m6.365,40.438c4.401,-2.709 11.114,-4.438 18.635,-4.438c7.418,0 14.049,1.682 18.451,4.325"/>
+  <path id="svg_5" stroke-width="2" stroke-miterlimit="10" stroke="#ffffff" fill="none" d="m43.635,9.563c-4.401,2.708 -11.114,4.437 -18.635,4.437c-7.417,0 -14.049,-1.682 -18.451,-4.325"/>
+  <line id="svg_6" y2="25" y1="25" x2="49" x1="1" stroke-width="2" stroke-miterlimit="10" stroke="#ffffff" fill="none"/>
+  <line id="svg_7" y2="49" y1="1" x2="25" x1="25" stroke-width="2" stroke-miterlimit="10" stroke="#ffffff" fill="none"/>
+ </g>
+</svg>

@@ -2,12 +2,12 @@ import { Component, OnInit, Input } from '@angular/core';
 import { Place } from '../shared/place.model';
 
 @Component({
-  selector: 'app-place-details',
-  templateUrl: './place-details.component.html',
-  styleUrls: ['./place-details.component.css'],
+  selector: 'app-details-place',
+  templateUrl: './details-place.component.html',
+  styleUrls: ['./details-place.component.css'],
 
 })
-export class PlaceDetailsComponent implements OnInit {
+export class DetailsPlaceComponent implements OnInit {
 
   @Input() Place: Place;
 

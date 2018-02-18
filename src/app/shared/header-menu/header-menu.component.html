@@ -1,0 +1,37 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">
+      <img src="../../../assets/brand/brand.png" width="30" height="30" alt="">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive"
+      aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarResponsive">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item">
+          <a class="nav-link" uiSref="list-news" uiSrefActive="active">Nyheder</a>
+        </li>
+        <li class="nav-item" ngbDropdown>
+          <a class="nav-link" ngbDropdownToggle href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">Admin</a>
+          <div ngbDropdownMenu aria-labelledby="navbarDropdown">
+            <a class="dropdown-header">Steder</a>
+            <a class="dropdown-item" uiSref="places-list" uiSrefActive="active">Vis Steder</a>
+            <a class="dropdown-item" uiSref="create-place" uiSrefActive="active">Opret Sted</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-header">Profil</a>
+            <a class="dropdown-item" uiSref="list-profiles" uiSrefActive="active">Vis Profiler</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-header">Andet</a>
+            <a class="dropdown-item" uiSref="pages-hello" uiSrefActive="active">Hello</a>
+            <a class="dropdown-item" uiSref="pages-about" uiSrefActive="active">About</a>
+          </div>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" uiSref="about" uiSrefActive="active">About</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

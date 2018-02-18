@@ -1,11 +1,16 @@
 a.dropdown-header{
   padding: 0rem 1.0rem;
-  font-size: 0.9rem;
+  font-size: 1.0rem;
+  cursor: default;
 }
 a.dropdown-item{
   padding: 0rem 1.5rem;
   font-size: 0.9rem;
+  cursor: pointer;
 }
 .dropdown-divider{
   margin: .25rem 0;
+}
+a.nav-link{
+  cursor: pointer;
 }
