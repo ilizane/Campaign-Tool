@@ -1,0 +1,14 @@
+<h2>{{title}}</h2>
+<hr class="style-two">
+<div class="row">
+  <div class="col-sm-3" *ngFor="let campaign of campaigns">
+    <div class="card">
+      <img class="card-img-top" src="https://www.tribality.com/wp-content/uploads/2015/07/pf-core.jpg" alt="Card image cap">
+      <div class="card-body">
+        <h5 class="card-title">{{campaign.name}}</h5>
+        <p class="card-text">{{campaign.description}}</p>
+        <a uiSref="campaigns-detail" [uiParams]="{ id:campaign.id }" uiSrefActive="active" class="btn btn-primary">Read more</a>
+      </div>
+    </div>
+  </div>
+</div>

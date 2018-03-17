@@ -1,20 +1,20 @@
-<app-header-menu></app-header-menu>
-<!-- Page Content -->
-<div class="container">
-
-  <div class="row text-center">
-    <div class="col-lg-12 col-md-12">
-      <br>
-    </div>
+<nav class="navbar navbar-dark sticky-top bg-dark flex-md-nowrap p-0">
+  <a class="navbar-brand col-sm-12 col-md-12 mr-12" href="#">Dungeon Master Tools</a>
+</nav>
+<div class="container-fluid">
+  <div class="row">
+    <app-header-menu></app-header-menu>
+    <main role="main" class="col-md-9 ml-sm-auto col-lg-10 pt-3 px-4">
+      <ui-view></ui-view>
+    </main>
   </div>
-
-  <!-- Page Features -->
-
-    <ui-view></ui-view>
-  <!-- /.row -->
-
 </div>
-<!-- /.container -->
-<app-footer-menu></app-footer-menu>
+<nav class="navbar fixed-bottom navbar-dark bg-dark">
+  <span class="navbar-text">
+    <app-messages></app-messages>
+  </span>
+  <a class="navbar-brand" href="#">Copyright &copy; Campaign Tracker / ilizane.dk 2018</a>
+</nav>
 
-<app-messages></app-messages>
+
+
